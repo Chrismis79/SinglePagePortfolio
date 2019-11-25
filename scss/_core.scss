@@ -24,3 +24,11 @@ p {
     line-height: 1.6;
     margin: 2% 0;
 }
+
+a {
+    color: #9acff6;
+
+    &:hover, &:active, &:focus {
+        color: darken(#9acff6, 15%);
+    }
+}
