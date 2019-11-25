@@ -1,8 +1,6 @@
-html, body {
+body {
   font-size: 62.5%;
-  font-family: 'Open Sans', sens-serif;
-  background: red; }
-
-h1 {
-  font-size: 6rem;
-  font-weight: 700; }
+  font-family: 'Open Sans', sens-serif; }
+  body h1 {
+    font-size: 5rem;
+    font-weight: 700; }

@@ -1,3 +1,12 @@
+body {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sens-serif; }
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: -3px; }
+
 .hero-unit {
   background: url("../img/hero-unit-background-desktop.jpg");
   background-size: cover;
@@ -5,3 +14,6 @@
   .hero-unit .hero-unit-subheading {
     color: #9ACFF6;
     text-transform: uppercase; }
+
+.btn {
+  text-transform: uppercase; }
