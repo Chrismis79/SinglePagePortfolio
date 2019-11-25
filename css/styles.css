@@ -26,7 +26,8 @@ p {
   background: url("../img/hero-unit-background-desktop.jpg");
   background-size: cover;
   background-position: center;
-  min-height: 100vh; }
+  min-height: 100vh;
+  padding: 50px 0; }
   .hero-unit .hero-unit-subheading {
     color: #9ACFF6;
     text-transform: uppercase;
@@ -34,6 +35,17 @@ p {
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 10%; }
+
+@media only screen and (max-width: 576px) {
+  .hero-unit {
+    text-align: center;
+    background: url("../img/hero-unit-background-mobile.jpg");
+    background-position: center;
+    min-height: 100vh; }
+    .hero-unit .hero-unit-heading {
+      font-size: 2.4rem; }
+    .hero-unit .hero-unit-subheading {
+      font-size: 1rem; } }
 
 .btn {
   text-transform: uppercase;
