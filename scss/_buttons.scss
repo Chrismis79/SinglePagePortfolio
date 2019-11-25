@@ -1,5 +1,12 @@
 .btn {
     text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-shadow: 0px 1px 2px rbga(0, 0, 0, 0.25);
+    border: 0;
+    padding: 2% 4%;
 
-   
+    &.btn-primary {
+        background: linear-gradient(105.63deg, #EA2626 -21.04%, #0029FF 147.44%);
+    }
 }
