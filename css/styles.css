@@ -160,7 +160,52 @@ a {
     .contact-form .contact-form-input::placeholder {
       color: #9E9E9E; }
   .contact-form textarea.contact-form-input {
-    min-height: 175px; }
+    min-height: 175px;
+    font-size: 1.2rem; }
+  .contact-form .contact-form-checkbox-input {
+    display: none; }
+    .contact-form .contact-form-checkbox-input:checked + .contact-form-checkbox-label:after {
+      opacity: 1;
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1); }
+  .contact-form .contact-form-checkbox-label {
+    position: relative;
+    color: #adabab;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 16px;
+    cursor: pointer;
+    padding-left: 50px;
+    margin-bottom: 2%;
+    margin-top: 1%; }
+    .contact-form .contact-form-checkbox-label:before {
+      position: absolute;
+      content: '';
+      left: 0;
+      top: -2px;
+      width: 35px;
+      height: 35px;
+      border-radius: 4px;
+      -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1), 0px 4px 20px rgba(0, 0, 0, 0.15);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1), 0px 4px 20px rgba(0, 0, 0, 0.15); }
+    .contact-form .contact-form-checkbox-label:after {
+      position: absolute;
+      left: 13px;
+      top: 9px;
+      font-family: 'Font Awesome 5 Free';
+      content: "\f00c";
+      color: #EA2626;
+      opacity: 0;
+      -webkit-transform: scale(0.5);
+      -ms-transform: scale(0.5);
+      transform: scale(0.5);
+      -webkit-transition: opacity .3s, -webkit-transform .3s;
+      transition: opacity .3s, -webkit-transform .3s;
+      -o-transition: opacity .3s, transform .3s;
+      transition: opacity .3s, transform .3s;
+      transition: opacity .3s, transform .3s, -webkit-transform .3s; }
 
 .footer {
   background: #eef1f2;
