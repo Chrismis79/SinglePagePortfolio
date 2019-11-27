@@ -5,7 +5,7 @@ body{
     
 }
 h1, h2, h3, h4, h5, h6 {
-    color: #0B3757;
+    color: #373F51;
 }
 h1 {
     font-size: 3.5rem;
@@ -17,6 +17,13 @@ h2 {
     font-size: 2.5rem;
     font-weight: 700;
     letter-spacing: 1.5px;
+}
+
+h4 {    
+    color: #9acff6;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 2%;
 }
 
 p {
@@ -32,3 +39,7 @@ a {
         color: darken(#9acff6, 15%);
     }
 }
+li {
+    margin: 5% 0 0 2%;
+}
+
