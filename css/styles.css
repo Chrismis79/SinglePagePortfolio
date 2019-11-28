@@ -228,10 +228,14 @@ li {
 
 .footer {
   background: gray;
-  border-top: 2px solid #1B1B1E; }
+  border-top: 2px solid #1B1B1E;
+  width: 100%; }
   .footer .footer-ul {
     list-style: none;
-    padding: 1%; }
+    padding: 1%;
+    font-size: 1.5rem;
+    margin-left: 50px;
+    color: #9acff6; }
   .footer .footer-contact-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -256,10 +260,11 @@ li {
     text-align: center;
     padding: 1%;
     margin-bottom: 2%; }
+
+@media only screen and (max-width: 700px) {
   .footer .footer-ul {
-    font-size: 1.5rem;
-    margin-left: 50px;
-    color: #9acff6; }
+    font-size: 1rem;
+    margin-left: 10px; } }
 
 .skillsets .skillset {
   margin-top: 2%;
