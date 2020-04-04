@@ -243,13 +243,12 @@ li {
     color: #1B1B1E;
     font-weight: 700;
     font-size: 1.5rem; }
-  .footer .learn {
-    padding-left: 2%; }
   .footer .footer-ul {
     list-style: none;
     padding: 1%;
     font-size: 1.2rem;
     margin-left: 50px;
+    margin-bottom: 5%;
     color: #9acff6; }
   .footer .footer-contact-container {
     display: -webkit-box;
