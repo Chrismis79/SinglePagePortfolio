@@ -138,6 +138,14 @@ li {
     border-radius: 6px;
     overflow: hidden;
     margin: 2% 0; }
+    .portfolio-cards .portfolio-card:hover {
+      cursor: pointer;
+      -webkit-transition: all .2s ease-in-out;
+      -o-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1); }
     .portfolio-cards .portfolio-card .portfolio-card-image {
       background-size: cover;
       background-position: center;
@@ -230,10 +238,17 @@ li {
   background: gray;
   border-top: 2px solid #1B1B1E;
   width: 100%; }
+  .footer h3 {
+    margin-left: 2%;
+    color: #1B1B1E;
+    font-weight: 700;
+    font-size: 1.5rem; }
+  .footer .learn {
+    padding-left: 2%; }
   .footer .footer-ul {
     list-style: none;
     padding: 1%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-left: 50px;
     color: #9acff6; }
   .footer .footer-contact-container {
