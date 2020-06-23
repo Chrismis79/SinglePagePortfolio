@@ -116,6 +116,11 @@ li {
       min-height: 500px;
       background-size: cover;
       background-position: center; }
+    .content-section.content-section-side-image .content-section-side-image-links {
+      text-align: left; }
+      .content-section.content-section-side-image .content-section-side-image-links .skills {
+        padding-left: 0;
+        padding-right: 5%; }
 
 @media only screen and (max-width: 576px) {
   .content-section.content-section-side-image {
@@ -289,3 +294,6 @@ li {
     letter-spacing: 1.6px;
     font-size: 1.2rem;
     font-weight: bold; }
+  .skillsets .skillset .react {
+    width: 60px;
+    height: 60px; }

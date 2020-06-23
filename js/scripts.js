@@ -18,5 +18,5 @@ card2.onclick = function() {
 
 const card3 = document.querySelector(".img3");
 card3.onclick = function() {
-    window.location.href = "https://christine-react-todo-app.netlify.com/?_ga=2.54736363.1737188340.1585946454-2041847291.1583169998"
+    window.location.href = "https://swaap.co/"
 };

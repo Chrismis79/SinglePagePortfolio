@@ -12,7 +12,15 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/styles.css">
     </head>
+
+<!-- Hero Element -->
+
     <body>
+      <nav>
+        <a href="#contact">Contact</a>
+        <a href="#portfolio-section">Portfolio</a>
+        <a href="#contact">Blog</a>
+      </nav>
         <section class='hero-unit dark-content d-flex align-items-center'>
             <div class='container'>
                 <div class='row'> 
@@ -27,6 +35,43 @@
                 </div>
             </div>
         </section>
+
+<!-- About Me -->
+
+        <section class="content-section content-section-side-image dark-content">
+          <div class="content-section-side-image-container d-block d-sm-none" 
+            style="background-image: url('img/who-am-i-mobile.jpg')"></div>
+          <div class="content-section-side-image-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9 offset-sm-1">
+                        <h2 class="content-section-side-image-heading">
+                            <img class="img-circle mb-2" src="img/profile-pic.png" width='200' height='200'alt="Christine Fletcher">
+                            <br>
+                          Meet Christine          
+                        </h2>
+              
+                        <p>Hi! Thank you for visiting my portfolio. I am a <strong>full stack software engineer</strong> with a background in nursing. </p>
+                        <p>I am a passionate creative person who excels at solving complex problems.</p>
+                        <p>Bringing strong leadership, communication and collaborative management skills into the field of software engineering & web development.</p>
+                        <p>I am available for web & software development contracts and positions, as well as content creation specializing in Women's Health.</p>
+                        <p>I have an entrepreneurial spirit and I want to help you develop your online presence and grow your business.</p>
+                        <h4>
+                          <div class="content-section-side-image-links">
+                            <a class="skills" href="#" data-toggle="modal" data-target="#exampleModal">SKILLS</a>
+                            <a class="resume"href="https://resume.creddle.io/resume/39594zf35ah">RESUME</a>
+                          <div>
+                        </h4>
+                    </div>
+                 </div>
+              </div>
+            </div>
+            <div class="content-section-side-image-container d-none d-sm-block" 
+            style="background-image: url('img/who-am-i-desktop.jpg')"></div>
+        </section>
+
+<!-- Portfolio section  -->
+
         <section id="portfolio-section" class='content-section content-section-centered'>
             <div class='container'>
                 <div class='row'>
@@ -49,53 +94,33 @@
                       <div class="portfolio-card">
                         <div class="portfolio-card-image img2" style="background-image: url('img/nychols-img.png')"></div>
                           <div class="portfolio-card-information">
-                            <span class="portfolio-card-title">Nychol's Sweets & Things Website</span>
+                            <span class="portfolio-card-title">Nychol's Sweets & Things</span>
                             <span class="portfolio-card-credits">HTML | SASS | JavaScript | Bootstrap</span>
                           </div>
                         </div>
                       </div>
                     <div class='col-sm-4'>
                       <div class="portfolio-card">
-                        <div class="portfolio-card-image img3" style="background-image: url('img/todo-screenshot.png')"></div>
+                        <div class="portfolio-card-image img3" style="background-image: url('img/SwaapScreen.png')"></div>
                           <div class="portfolio-card-information">
-                            <span class="portfolio-card-title">To Do App</span>
-                            <span class="portfolio-card-credits">React | Styled Components | Cypress</span>
+                            <span class="portfolio-card-title">Swaap App</span>
+                            <span class="portfolio-card-credits">React | Apollo | GraphQL | Cypress</span>
                           </div>
                         </div>
-                      </div>
-                    </div>
-            </div>
-        </section>
-
-        <section class="content-section content-section-side-image dark-content">
-            <div class="content-section-side-image-container d-block d-sm-none" 
-            style="background-image: url('img/who-am-i-mobile.jpg')"></div>
-            <div class="content-section-side-image-content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-9 offset-sm-1">
-                            <h2 class="content-section-side-image-heading">
-                                <img class="img-circle mb-2" src="img/profile-picture.png" width='60' height='60'alt="Christine Fletcher">
-                                <br>
-                                Meet Christine
-                            </h2>
-                            <p>Hi! Thank you for visiting my portfolio. I am a <strong>full stack software engineer</strong> with a background in nursing. </p>
-                            <p>I am a passionate creative person who excels at solving complex problems.</p>
-                            <p>Bringing strong leadership, communication and collaborative management skills into the field of software engineering & web development.</p>
-                            <p>I am available for web & software development contracts and positions, as well as content creation specializing in Women's Health.</p>
-                            <p>I have an entrepreneurial spirit and I want to help you develop your online presence and grow your business.</p>
-                            <p>See my skills: <a href="#" data-toggle="modal" data-target="#exampleModal">SKILLS</a>.</p>
-                            <p>View my resume: <a href="https://docs.google.com/document/d/1Ur0LdSsjtjWNs6xFdzFL95cqUGh0ufCLSLSzsbnhrzY/edit?usp=sharing">RESUME</a>.</p>
+                        <div class="gitHubLinks">
+                          <a class="gitHub" href="https://github.com/Chrismis79/conference-contacts-fe.git">Front End GitHub Repo</a>
+                          <a class="gitHub" href="https://github.com/Chrismis79/conference-contacts-be.git">Back End GitHub Repo</a>
                         </div>
+                      </div>
+                      
                     </div>
-                </div>
             </div>
-            <div class="content-section-side-image-container d-none d-sm-block" 
-            style="background-image: url('img/who-am-i-desktop.jpg')"></div>
         </section>
+        
+<!-- Contact Section -->
 
         <section class="content-section content-section-centered">
-            <div class="container">
+            <div class="container" id="contact">
                 <div class="row">
                     <div class="col">
                         <h2>Get In Touch</h2>
@@ -121,6 +146,9 @@
                 </div>
             </div>
         </section>
+
+  <!-- Footer Section -->
+
         <footer class="footer">
           <h4>Reach Out</h4>
           <h3>Follow Me</h3>
@@ -140,17 +168,18 @@
                   <img class="dev-badge" src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Christine Fletcher's DEV Profile" height="50" width="50">
                 </a></li>
                 <li><a href="https://resume.creddle.io/resume/39594zf35ah">RESUME</a></li>
-                <li>EMAIL: Christine.Fletcher0101@gmail.com</li>
+                
               </ul>
             </div>
           </div>
           <div class='footer-copyright'>
             &copy; Christine Fletcher - 2020 <br>
-            <p>Last updated 4/4/2020</p>
+            <p>Last updated 6/22/2020</p>
           </div>
         </footer>
       
-      <!-- Modal -->
+  <!-- Modal -->
+
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
@@ -161,42 +190,62 @@
               </button>
             </div>
             <div class="modal-body">
-              <p class='mt-1'>Below are my current skills as of <strong>April, 2020</strong></p>
+              <p class='mt-1'>Below are my current skills as of <strong>June 22, 2020</strong></p>
               <div class="skillsets">
                 <div class="skillset">
                    <h3 class="skillset-heading">HTML-5</h3>
-                   <div class="progress bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Proficient</div>
+                   <p>Accessibility | Responsiveness | Semantic
                  </div>
               </div>
               <div class="skillsets">
                 <div class="skillset">
-                    <h3 class="skillset-heading">CSS (SASS, LESS)</h3>
-                    <div class="progress bg-primary" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">Proficient</div>
+                    <h3 class="skillset-heading">Styling</h3>
+                    <p><img data-toggle="tooltip" data-placement="top" title="CSS3" src="https://img.icons8.com/color/48/000000/css3.png"/> | 
+                       <img data-toggle="tooltip" data-placement="top" title="LESS" src="https://img.icons8.com/windows/32/000000/less-logo.png"/> | 
+                       <img data-toggle="tooltip" data-placement="top" title="SASS" src="https://img.icons8.com/color/48/000000/sass.png"/> | 
+                       <img data-toggle="tooltip" data-placement="top" title="Bootstrap" src="https://img.icons8.com/color/48/000000/bootstrap.png"/> | 
+                       Tailwind</p>
                 </div>
                 </div>
                 <div class="skillsets">
                   <div class="skillset">
-                    <h3 class="skillset-heading">JavaScript</h3>
-                    <div class="progress bg-primary" role="progressbar" style="width: 50%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">Intermediate</div>
+                    <h3 class="skillset-heading">Languages</h3>
+                    <p><img data-toggle="tooltip" data-placement="top" title="JavaScript" src="https://img.icons8.com/color/48/000000/javascript.png"/> | 
+                       <img data-toggle="tooltip" data-placement="top" title="Python" src="https://img.icons8.com/color/48/000000/python.png"/>
+                    </p>
+                    
                   </div>
                 </div>
                 <div class="skillsets">
                   <div class="skillset">
-                    <h3 class="skillset-heading">ReactJS (Redux)</h3>
-                    <div class="progress bg-primary" role="progressbar" style="width: 50%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">Intermediate</div>
+                    <h3 class="skillset-heading">Libraries & Frameworks</h3>
+                    <p><img data-toggle="tooltip" data-placement="top" title="React" src="https://img.icons8.com/plasticine/100/000000/react.png" class="react"/> | 
+                        <img data-toggle="tooltip" data-placement="top" title="Redux" src="https://img.icons8.com/color/48/000000/redux.png"/> | 
+                        <img data-toggle="tooltip" data-placement="top" title="Apollo" src="https://img.icons8.com/color/48/000000/apollo.png"/> | 
+                        <img data-toggle="tooltip" data-placement="top" title="GraphQL" src="https://img.icons8.com/color/48/000000/graphql.png"/></p>
                   </div>
                 </div>
                 <div class="skillsets">
                   <div class="skillset">
-                    <h3 class="skillset-heading">NodeJS (Express, SQLite3, PG, MongoDB)</h3>
-                    <div class="progress bg-primary" role="progressbar" style="width: 40%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">Intermediate</div>
+                    <h3 class="skillset-heading"><img data-toggle="tooltip" data-placement="top" title="Node.js" src="https://img.icons8.com/color/96/000000/nodejs.png"/></h3>
+                    <p>Express | Sqlite3 | Knex | Postgres | GraphQL | Apollo</p>
                  </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
+        <a href="https://icons8.com/icon/21278/css3">CSS3 icon by Icons8</a>
+        <a href="https://icons8.com/icon/Jv4b1C1B-9Q4/less-logo">Less Logo icon by Icons8</a>
+        <a href="https://icons8.com/icon/QBqFNfPPB2Kx/sass">Sass icon by Icons8</a>
+        <a href="https://icons8.com/icon/84710/bootstrap">Bootstrap icon by Icons8</a>
+        <a href="https://icons8.com/icon/108784/javascript">JavaScript icon by Icons8</a>
+        <a href="https://icons8.com/icon/13441/python">Python icon by Icons8</a>
+        <a href="https://icons8.com/icon/NfbyHexzVEDk/react">React icon by Icons8</a>
+        <a href="https://icons8.com/icon/jD-fJzVguBmw/redux">Redux icon by Icons8</a>
+        <a href="https://icons8.com/icon/ktSS1TBte4xa/apollo">Apollo icon by Icons8</a>
+        <a href="https://icons8.com/icon/zdI5E8moxhs-/graphql">Graphql icon by Icons8</a>
+        <a href="https://icons8.com/icon/54087/nodejs">Nodejs icon by Icons8</a>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
         crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

@@ -22,7 +22,17 @@
             min-height: 500px;
             background-size: cover;
             background-position: center;
+
+           
         }
+         .content-section-side-image-links{
+                text-align: left;
+                
+                .skills{
+                    padding-left: 0;
+                    padding-right: 5%;
+                }
+            }
     }
 
 }
