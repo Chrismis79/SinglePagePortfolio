@@ -51,6 +51,22 @@ li {
   background: linear-gradient(90deg, #373f51 0%, #d51165 56%, #9acff6 100%);
   color: white; }
 
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  nav .textLinks {
+    font-size: 2rem; }
+
+.social {
+  padding-top: 2%; }
+
 .hero-unit {
   background: url("../img/hero-unit-background-desktop.jpg");
   background-size: cover;
@@ -170,6 +186,9 @@ li {
         font-size: 0.75rem;
         letter-spacing: 1px;
         font-weight: 600; }
+
+.gitHub {
+  font-size: 1.1rem; }
 
 .contact-form {
   margin-top: 3%; }

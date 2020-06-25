@@ -17,9 +17,20 @@
 
     <body>
       <nav>
-        <a href="#contact">Contact</a>
-        <a href="#portfolio-section">Portfolio</a>
-        <a href="#contact">Blog</a>
+        <a class="textLinks" href="#contact">Contact</a>
+        <a class="textLinks" href="#portfolio-section">Portfolio</a>
+        <a href="https://dev.to/chrismis79">
+                  <img data-toggle="tooltip" data-placement="top" title="Blog"
+                  class="dev-badge" src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Christine Fletcher's DEV Profile" height="50" width="50">
+                </a>
+      
+        <a href="https://www.twitter.com/christinfletch"><i data-toggle="tooltip" data-placement="top" title="Twitter"
+                class="fab fa-twitter-square fa-5x social"></i></a>
+        <a href="https://www.linkedin.com/in/christine-fletcher/"><i data-toggle="tooltip" data-placement="top" title="LinkedIn"
+                class="fab fa-linkedin fa-5x social"></i></a>
+        <a href="https://github.com/Chrismis79"><i data-toggle="tooltip" data-placement="top" title="GitHub"
+                class="fab fa-github-square fa-5x social"></i></a>                  
+                
       </nav>
         <section class='hero-unit dark-content d-flex align-items-center'>
             <div class='container'>
@@ -73,53 +84,48 @@
 <!-- Portfolio section  -->
 
         <section id="portfolio-section" class='content-section content-section-centered'>
-            <div class='container'>
-                <div class='row'>
-                    <div class='col'>
-                        <h2>My Portfolio</h2>
-                        <p>Here is a selection of my favorite and most recent pieces of work.</p>
+          <div class='container'>
+            <div class='row'>
+              <div class='col'>
+                <h2>My Portfolio</h2>
+                <p>Here is a selection of my favorite and most recent pieces of work. <br> Click cards below to visit the deployed sites.</p>
+              </div>
+            </div>
+            <div class='row portfolio-cards'>
+              <div class='col-sm-4'>
+                <div class="portfolio-card" data-toggle="tooltip" data-placement="top" title="This was an independent project built in a few hours with React. Data was pulled from the NASA APOD API.">
+                  <div class="portfolio-card-image img1" style="background-image: url('img/NASA-screenshot.png')"></div>
+                    <div class="portfolio-card-information">
+                      <span class="portfolio-card-title">Nasa Photo of the Day App</span>
+                      <span class="portfolio-card-credits">React | API | Styled Components</span>
                     </div>
+                  </div>                        
+                    <a class="gitHub" href="https://github.com/Chrismis79/nasa-photo-of-the-day.git">GitHub Repo</a>  
+                  </div>
+                  <div class='col-sm-4'>
+                    <div class="portfolio-card" data-toggle="tooltip" data-placement="top" title="Website built for a freelance client for a custom cakes buisness.">
+                      <div class="portfolio-card-image img2" style="background-image: url('img/nychols-img.png')"></div>
+                        <div class="portfolio-card-information">
+                          <span class="portfolio-card-title">Nychol's Sweets & Things</span>
+                          <span class="portfolio-card-credits">HTML | SASS | JavaScript | Bootstrap</span>
+                        </div>
+                      </div>
+                        <a class="gitHub" href="https://github.com/Chrismis79/nycholssweetsnthings.git">GitHub Repo</a>                        
+                      </div>
+                  <div class='col-sm-4'>
+                    <div class="portfolio-card" data-toggle="tooltip" data-placement="top" title="Contributed to this project during Labs24 with a team of five developers over the course of two months.">
+                      <div class="portfolio-card-image img3" style="background-image: url('img/SwaapScreen.png')"></div>
+                        <div class="portfolio-card-information">
+                          <span class="portfolio-card-title">Swaap App</span>
+                          <span class="portfolio-card-credits">React | Apollo | GraphQL | Cypress</span>
+                        </div>
+                      </div>
+                    <div class="gitHubLinks">
+                      <a class="gitHub" href="https://github.com/Chrismis79/conference-contacts-fe.git">Front End GitHub Repo</a> <br>
+                      <a class="gitHub" href="https://github.com/Chrismis79/conference-contacts-be.git">Back End GitHub Repo</a>
+                    </div>
+                  </div>  
                 </div>
-                <div class='row portfolio-cards'>
-                    <div class='col-sm-4'>
-                        <div class="portfolio-card">
-                            <div class="portfolio-card-image img1" style="background-image: url('img/NASA-screenshot.png')"></div>
-                            <div class="portfolio-card-information">
-                                <span class="portfolio-card-title">Nasa Photo of the Day App</span>
-                                <span class="portfolio-card-credits">React | API | Styled Components</span>
-                            </div>
-                        </div>
-                        
-                          <a class="gitHub" href="https://github.com/Chrismis79/nasa-photo-of-the-day.git">GitHub Repo</a>
-                       
-                    </div>
-                    <div class='col-sm-4'>
-                      <div class="portfolio-card">
-                        <div class="portfolio-card-image img2" style="background-image: url('img/nychols-img.png')"></div>
-                          <div class="portfolio-card-information">
-                            <span class="portfolio-card-title">Nychol's Sweets & Things</span>
-                            <span class="portfolio-card-credits">HTML | SASS | JavaScript | Bootstrap</span>
-                          </div>
-                        </div>
-                        
-                          <a class="gitHub" href="https://github.com/Chrismis79/nycholssweetsnthings.git">GitHub Repo</a>
-                        
-                      </div>
-                    <div class='col-sm-4'>
-                      <div class="portfolio-card">
-                        <div class="portfolio-card-image img3" style="background-image: url('img/SwaapScreen.png')"></div>
-                          <div class="portfolio-card-information">
-                            <span class="portfolio-card-title">Swaap App</span>
-                            <span class="portfolio-card-credits">React | Apollo | GraphQL | Cypress</span>
-                          </div>
-                        </div>
-                        <div class="gitHubLinks">
-                          <a class="gitHub" href="https://github.com/Chrismis79/conference-contacts-fe.git">Front End GitHub Repo</a>
-                          <a class="gitHub" href="https://github.com/Chrismis79/conference-contacts-be.git">Back End GitHub Repo</a>
-                        </div>
-                      </div>
-                      
-                    </div>
             </div>
         </section>
         
@@ -156,7 +162,6 @@
   <!-- Footer Section -->
 
         <footer class="footer">
-          <h4>Reach Out</h4>
           <h3>Follow Me</h3>
           <div class='footer-contact-container'>
             <div class='footer-social-media'>
@@ -168,16 +173,14 @@
             </div>
             
             <div>
-              <h3>Learn More</h3>
               <ul class='footer-ul'>
                 <li><a href="https://dev.to/chrismis79">
                   <img class="dev-badge" src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Christine Fletcher's DEV Profile" height="50" width="50">
-                </a></li>
-                <li><a href="https://resume.creddle.io/resume/39594zf35ah">RESUME</a></li>
-                
+                </a></li>                
               </ul>
             </div>
           </div>
+
           <div class='footer-copyright'>
             &copy; Christine Fletcher - 2020 <br>
             <p>Last updated 6/22/2020</p>
