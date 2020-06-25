@@ -4,7 +4,11 @@
     background-position: center;
     min-height: 100vh;
     padding: 50px 0;
+    position: relative;
 
+    .container {
+        top: 0;
+    }
     .hero-unit-subheading {
         color: #9ACFF6;
         text-transform: uppercase;
